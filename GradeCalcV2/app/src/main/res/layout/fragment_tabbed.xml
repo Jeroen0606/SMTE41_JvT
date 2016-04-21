@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayout"
+    tools:context="com.example.jeroen0606.gradecalcv2.TabbedActivity$PlaceholderFragment"
+    android:weightSum="1">
+
+    <LinearLayout style="@style/TextLayout">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TextView.Calc"
+            android:text="Points"/>
+
+        <TextView
+            android:id="@+id/textViewGrade"
+            style="@style/TextView.Grade" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout">
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="1"
+            android:id="@+id/btnTotal1"
+            android:onClick="click1"/>
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="2"
+            android:id="@+id/btnTotal2"
+            android:onClick="click2"/>
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="3"
+            android:id="@+id/btnTotal3"
+            android:onClick="click3"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout">
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="4"
+            android:id="@+id/btnTotal4"
+            android:onClick="click4"/>
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="5"
+            android:id="@+id/btnTotal5"
+            android:onClick="click5"/>
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="6"
+            android:id="@+id/btnTotal6"
+            android:onClick="click6"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout">
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="7"
+            android:id="@+id/btnTotal7"
+            android:onClick="click7"/>
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="8"
+            android:id="@+id/btnTotal8"
+            android:onClick="click8"/>
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="9"
+            android:id="@+id/btnTotal9"
+            android:onClick="click9"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout">
+        <Button
+            style="@style/buttonCalc"
+            android:text="C"
+            android:id="@+id/btnTotalC"
+            android:onClick="clickC"/>
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="0"
+            android:id="@+id/btnTotal0"
+            android:onClick="click0"/>
+
+        <Button
+            style="@style/buttonCalc"
+            android:text="+"
+            android:id="@+id/btnTotalGO"
+            android:onClick="clickAdd"/>
+    </LinearLayout>
+
+</LinearLayout>

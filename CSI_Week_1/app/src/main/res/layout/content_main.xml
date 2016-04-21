@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jeroen0606.csi_week_1.MainActivity"
+    tools:showIn="@layout/activity_main"
+    style="@style/LinearLayout">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/ah"
+        android:layout_gravity="center_horizontal"
+    />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="@string/name"
+                    android:id="@+id/textView"
+                    style="@style/Text" />
+
+                <TextView
+                    android:text="@string/namevalue"
+                    android:id="@+id/textView2"
+                    style="@style/Text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="@string/gender"
+                    android:id="@+id/textView3"
+                    style="@style/Text" />
+
+                <TextView
+                    android:text="@string/gendervalue"
+                    android:id="@+id/textView4"
+                    style="@style/Text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="@string/age"
+                    android:id="@+id/textView5"
+                    style="@style/Text" />
+
+                <TextView
+                    android:text="@string/agevalue"
+                    android:id="@+id/textView6"
+                    style="@style/Text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="@string/bounty"
+                    android:id="@+id/textView7"
+                    style="@style/Text" />
+
+                <TextView
+                    android:text="@string/bountyvalue"
+                    android:id="@+id/textView8"
+                    style="@style/Text" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Details:"
+            android:id="@+id/textView9"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/scrollView" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nicolas Cage was born in Long Beach, California, the son of comparative literature professor August Coppola (a brother of director Francis Ford Coppola) and dancer/choreographer Joy Vogelsang. He is of Italian (father) and German, English, and Polish (mother) descent. Cage changed his name early in his career to make his own reputation, succeeding brilliantly with a host of classic, quirky roles by the late 1980s."
+            android:id="@+id/textView10"
+            android:textColor="@color/white" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

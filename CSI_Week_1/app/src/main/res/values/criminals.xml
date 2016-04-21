@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>Piet</item>
+        <item>Jan</item>
+        <item>Henk</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+        <item>Klaas</item>
+    </string-array>
+</resources>

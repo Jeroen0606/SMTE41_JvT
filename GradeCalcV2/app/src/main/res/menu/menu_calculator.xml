@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:GradeCalcV2="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="close"
+        android:id="@+id/close"
+        android:orderInCategory="2"
+        GradeCalcV2:showAsAction="always"
+        />
+    <item
+        android:title="List"
+        android:id="@+id/list"
+        android:orderInCategory="1"
+        GradeCalcV2:showAsAction="always"
+        />
+</menu>
